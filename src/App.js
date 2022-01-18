@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { ConnectedRouter } from 'connected-react-router';
+import { ThemeProvider } from '@material-ui/core';
+import GlobalStyles from './components/GlobalStyles';
+import { createTheme } from './theme';
+import routes, { renderRoutes } from './routes';
+import store, { history } from './store';
+import { Provider } from 'react-redux';
 
-function App() {
+const App = () => {
+
+  const theme = createTheme();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Provider store={store}>
+      <ThemeProvider theme={theme}>
+
+            <ConnectedRouter history={history}>
+                <GlobalStyles />
+                {renderRoutes(routes)}
+            </ConnectedRouter>
+      </ThemeProvider>
+      </Provider>
   );
-}
+};
 
 export default App;
