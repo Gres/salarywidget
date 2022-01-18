@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/salarywidget/static/css/main.e6c13ad2.css",
+    "main.js": "/salarywidget/static/js/main.b16a9288.js",
+    "static/js/465.91e29f00.chunk.js": "/salarywidget/static/js/465.91e29f00.chunk.js",
+    "static/js/924.753b2c9c.chunk.js": "/salarywidget/static/js/924.753b2c9c.chunk.js",
+    "static/js/404.5af94308.chunk.js": "/salarywidget/static/js/404.5af94308.chunk.js",
+    "static/js/787.da52abd7.chunk.js": "/salarywidget/static/js/787.da52abd7.chunk.js",
+    "static/js/569.93827be5.chunk.js": "/salarywidget/static/js/569.93827be5.chunk.js",
+    "static/js/770.34ec314a.chunk.js": "/salarywidget/static/js/770.34ec314a.chunk.js",
+    "index.html": "/salarywidget/index.html",
+    "main.e6c13ad2.css.map": "/salarywidget/static/css/main.e6c13ad2.css.map",
+    "main.b16a9288.js.map": "/salarywidget/static/js/main.b16a9288.js.map",
+    "465.91e29f00.chunk.js.map": "/salarywidget/static/js/465.91e29f00.chunk.js.map",
+    "924.753b2c9c.chunk.js.map": "/salarywidget/static/js/924.753b2c9c.chunk.js.map",
+    "404.5af94308.chunk.js.map": "/salarywidget/static/js/404.5af94308.chunk.js.map",
+    "787.da52abd7.chunk.js.map": "/salarywidget/static/js/787.da52abd7.chunk.js.map",
+    "569.93827be5.chunk.js.map": "/salarywidget/static/js/569.93827be5.chunk.js.map",
+    "770.34ec314a.chunk.js.map": "/salarywidget/static/js/770.34ec314a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b16a9288.js"
+  ]
+}
