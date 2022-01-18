@@ -1,6 +1,6 @@
-import { SET_LOADING } from './actionTypes';
+import {SET_LOADING} from './actionTypes';
 
 export const setLoading = status => ({
-  type: SET_LOADING,
-  payload: status
+    type: SET_LOADING,
+    payload: status
 });

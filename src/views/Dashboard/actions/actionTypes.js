@@ -1,0 +1,3 @@
+export const LOAD_ITEMS = 'LOAD_ITEMS_CITY';
+export const SET_ITEMS = 'SET_ITEMS_CITY';
+export const SET_CITIES_LOADING = 'SET_CITIES_LOADING';

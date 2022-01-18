@@ -22,23 +22,23 @@ import LocationCityIcon from '@material-ui/icons/LocationCity';
 // import AccessTimeIcon from '@material-ui/icons/AccessTime';
 
 export const sections = [
-  {
-    id: 'mainSection',
-    items: [
-      {
-        title: 'dashboard',
-        icon: LocationCityIcon,
-        href: '/dashboard',
-        entityName: 'permissed'
-      },
-      {
-        title: 'people',
-        icon: LocationCityIcon,
-        href: '/people',
-        entityName: 'people'
-      },
+    {
+        id: 'mainSection',
+        items: [
+            {
+                title: 'dashboard',
+                icon: LocationCityIcon,
+                href: '/dashboard',
+                entityName: 'permissed'
+            },
+            {
+                title: 'city',
+                icon: LocationCityIcon,
+                href: '/city',
+                entityName: 'city'
+            },
 
 
-    ]
-  }
+        ]
+    }
 ];

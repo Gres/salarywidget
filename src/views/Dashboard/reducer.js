@@ -1,31 +1,23 @@
-import {LOAD_ITEM, SET_CITIES_LOADING, SET_ITEM, SET_SALARY} from './actions/actionTypes';
+import {LOAD_ITEMS, SET_CITIES_LOADING, SET_ITEMS} from './actions/actionTypes';
 
 const initialState = {
     fetching: true,
-    item: {}
+    list: {},
+    count: 0
 };
 
 export default (state = initialState, {type, payload}) => {
     switch (type) {
-        case LOAD_ITEM:
+        case LOAD_ITEMS:
             return {
                 ...state,
                 fetching: true
             };
-        case SET_ITEM:
+        case SET_ITEMS:
             return {
                 ...state,
                 fetching: false,
-                item: payload
-            };
-        case SET_SALARY:
-            return {
-                ...state,
-                fetching: false,
-                item: {
-                    ...state.item,
-                    ...payload
-                }
+                ...payload
             };
         case SET_CITIES_LOADING:
             return {

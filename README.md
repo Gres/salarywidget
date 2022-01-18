@@ -1,7 +1,8 @@
-# Getting Started with Create React App
+# Salary widget
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Widget shows salary chart for different locations and job titles \
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). \
+This project use open rest api https://developers.teleport.org/api/reference/#/
 ## Available Scripts
 
 In the project directory, you can run:

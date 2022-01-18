@@ -1,1 +1,2 @@
-export const doNoting = () => {};
+export const doNoting = () => {
+};
