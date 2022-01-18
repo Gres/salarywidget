@@ -1,6 +1,7 @@
 # Salary widget
 
 Widget shows salary chart for different locations and job titles \
+Application development took 4 hours \
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). \
 This project use open rest api https://developers.teleport.org/api/reference/#/
 ## Available Scripts
